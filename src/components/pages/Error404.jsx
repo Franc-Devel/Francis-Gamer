@@ -14,7 +14,7 @@ const Error404 = () => {
           Parece que te has perdido en el mapa
         </h1>
         <p className="text-secondary small mb-4">
-          La ruta solicitada no existe en Rolling Gamer o fue reubicada.
+          La ruta solicitada no existe en Francis Gamer o fue reubicada.
           Podés regresar al catálogo principal, consultar las guías de ayuda o contactar al equipo.
         </p>
         <div className="d-flex flex-column flex-sm-row justify-content-center gap-2 gap-sm-3">

@@ -29,7 +29,7 @@ const About = () => {
           EQUIPO DE DESARROLLO · ROLLINGCODE SCHOOL
         </span>
         <h1 className="display-5 fw-bold text-white mb-3">
-          Detrás de Rolling Gamer
+          Detrás de Francis Gamer
         </h1>
         <p className="text-secondary mx-auto mb-0" style={{ maxWidth: "700px" }}>
           Proyecto académico de e-commerce desarrollado por <strong>Francisco Delgado</strong> y <strong>Franco Triviño</strong>, replicando la experiencia y estética de Epic Games Store.
@@ -98,7 +98,7 @@ const About = () => {
                 <i className="bi bi-trello me-2"></i> Abrir Tablero de Trello
               </a>
               <a
-                href="https://github.com/Franc-Devel/byte-brothers-rolling-gamer"
+                href="https://github.com/Franc-Devel/Francis-Gamer"
                 target="_blank"
                 rel="noreferrer"
                 className="btn-epic-secondary py-2 px-3 small text-center text-decoration-none flex-fill"

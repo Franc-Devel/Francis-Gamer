@@ -32,7 +32,7 @@ const Wishlist = ({ juegos: juegosProp }) => {
         <i className="bi bi-person-lock display-4 text-primary mb-3 d-block" />
         <h1 className="epic-heading h3 mb-2">Inicia sesión para ver tus deseos</h1>
         <p className="text-secondary small mb-3">
-          Tu lista de deseos está asociada a tu cuenta personal de Rolling Gamer.
+          Tu lista de deseos está asociada a tu cuenta personal de Francis Gamer.
         </p>
         <Button as={Link} to="/login" state={{ tab: "login" }} className="btn-epic-primary">
           <i className="bi bi-box-arrow-in-right me-1" />Ingresar a mi cuenta
@@ -144,7 +144,7 @@ const Wishlist = ({ juegos: juegosProp }) => {
           <i className="bi bi-heartbreak display-4 text-secondary opacity-50 d-block mb-3" />
           <h2 className="epic-heading h4 text-light mb-2">Tu lista de deseos está vacía</h2>
           <p className="text-secondary small mb-4" style={{ maxWidth: 460, margin: "0 auto" }}>
-            Explora el catálogo de Rolling Gamer y guarda tus títulos favoritos haciendo clic en el icono de corazón en cada juego.
+            Explora el catálogo de Francis Gamer y guarda tus títulos favoritos haciendo clic en el icono de corazón en cada juego.
           </p>
           <div>
             <Button as={Link} to="/" className="btn-epic-primary px-4 py-2">

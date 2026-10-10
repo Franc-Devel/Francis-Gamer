@@ -63,7 +63,7 @@ const DetalleDeProducto = ({ buscarProducto, agregarResena }) => {
   const titulo = juego.nombre || juego.titulo || "Videojuego sin título";
   const genero = juego.genero || juego.categoria || "General";
   const estudio = juego.estudio || juego.desarrollador || "Estudio no especificado";
-  const editor = juego.editor || juego.desarrollador || "Rolling Gamer Distribution";
+  const editor = juego.editor || juego.desarrollador || "Francis Gamer Distribution";
   const lanzamiento = juego.lanzamiento || "Próximamente";
   const plataforma = juego.plataforma || "PC / Windows";
   const descripcionCorta = juego.resumen || juego.descripcionCorta || "Sin sinopsis disponible.";
@@ -97,7 +97,7 @@ const DetalleDeProducto = ({ buscarProducto, agregarResena }) => {
       setAuthModalConfig({
         titulo: "Iniciar sesión para comprar",
         icono: "bi-bag-check text-primary",
-        mensaje: `Debes iniciar sesión con tu cuenta de Rolling Gamer para poder comprar o simular la adquisición de ${titulo}.`,
+        mensaje: `Debes iniciar sesión con tu cuenta de Francis Gamer para poder comprar o simular la adquisición de ${titulo}.`,
       });
       setShowAuthModal(true);
       return;
@@ -421,7 +421,7 @@ const DetalleDeProducto = ({ buscarProducto, agregarResena }) => {
                 <div className="text-center py-3">
                   <i className="bi bi-person-lock display-6 text-secondary d-block mb-2" />
                   <p className="small text-secondary mb-3">
-                    Inicia sesión con tu cuenta de Rolling Gamer para calificar este juego y dejar tu opinión.
+                    Inicia sesión con tu cuenta de Francis Gamer para calificar este juego y dejar tu opinión.
                   </p>
                   <Button
                     as={Link}

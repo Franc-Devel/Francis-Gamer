@@ -37,7 +37,7 @@ const Menu = () => {
               <i className="bi bi-globe2 me-1" />ES
             </button>
             <span className="text-secondary small">
-              <i className="bi bi-shield-check text-primary me-1" />Rolling Gamer
+              <i className="bi bi-shield-check text-primary me-1" />Francis Gamer
             </span>
           </div>
         </Container>

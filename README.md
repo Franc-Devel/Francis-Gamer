@@ -1,4 +1,4 @@
-# 🎮 ROLLING GAMER | Tienda & Catálogo de Videojuegos
+# 🎮 FRANCIS GAMER | Tienda & Catálogo de Videojuegos
 
 [![React](https://img.shields.io/badge/React-19.2-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-8.2-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -6,7 +6,7 @@
 [![React_Router](https://img.shields.io/badge/React_Router-v8-CA4245?logo=react-router&logoColor=white)](https://reactrouter.com/)
 [![Status](https://img.shields.io/badge/RollingCode_School-Cohorte_9P-red)](#)
 
-Plataforma web profesional **ROLLING GAMER**, desarrollada con **React 19**, **Vite**, **Bootstrap 5** y **React Router**. Cuenta con carrusel cinematográfico con selector lateral, catálogo oficial de 19 títulos de Steam con assets locales sincronizados, fichas de producto con especificaciones técnicas, sistema de reseñas y panel de administración protegido.
+Plataforma web profesional **FRANCIS GAMER**, desarrollada con **React 19**, **Vite**, **Bootstrap 5** y **React Router**. Cuenta con carrusel cinematográfico con selector lateral, catálogo oficial de 19 títulos de Steam con assets locales sincronizados, fichas de producto con especificaciones técnicas, sistema de reseñas y panel de administración protegido.
 
 > 🚀 **Sitio Web en Producción (Vercel):** [https://byte-brothers-rolling-gamer.vercel.app/](https://byte-brothers-rolling-gamer.vercel.app/)
 
@@ -25,7 +25,7 @@ Plataforma web profesional **ROLLING GAMER**, desarrollada con **React 19**, **V
 
 ## 📖 Descripción del Proyecto
 
-ROLLING GAMER es una solución e-commerce moderna para gamers que ofrece:
+FRANCIS GAMER es una solución e-commerce moderna para gamers que ofrece:
 - **Catálogo digital de 19 títulos oficiales de Steam** precargados con datos reales, precios, géneros, capturas locales y requisitos de sistema.
 - **Buscador en tiempo real** por título, desarrollador y género.
 - **Filtros por categoría** (Acción, Disparos, Carreras, Estrategia, Simulación) y opciones de ordenamiento por precio y satisfacción.
@@ -79,8 +79,8 @@ Para la evaluación del proyecto, pueden utilizarse las siguientes cuentas prede
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd Rolling-Gamer
+   git clone https://github.com/Franc-Devel/Francis-Gamer.git
+   cd Francis-Gamer
    ```
 
 2. **Instalar dependencias:**
@@ -106,7 +106,7 @@ Para la evaluación del proyecto, pueden utilizarse las siguientes cuentas prede
 ## 📁 Estructura del Proyecto
 
 ```text
-Rolling-Gamer/
+Francis-Gamer/
 ├── vercel.json                 # Configuración de enrutamiento SPA para Vercel
 ├── public/
 │   └── _redirects              # Redirección complementaria de rutas SPA
@@ -150,7 +150,7 @@ El proyecto fue concebido, diseñado e implementado por:
 
 ### 📋 Gestión del Proyecto y Código Fuente
 - **Tablero Ágil Oficial (Trello):** [https://trello.com/b/qyopevQH/rolling-gamer](https://trello.com/b/qyopevQH/rolling-gamer)
-- **Repositorio Oficial (GitHub):** [https://github.com/Franc-Devel/byte-brothers-rolling-gamer](https://github.com/Franc-Devel/byte-brothers-rolling-gamer)
+- **Repositorio Oficial (GitHub):** [https://github.com/Franc-Devel/Francis-Gamer](https://github.com/Franc-Devel/Francis-Gamer)
 
 ---
 
@@ -163,4 +163,4 @@ El repositorio incluye el archivo de configuración `vercel.json` con reglas de 
 
 ---
 
-© 2025 **ROLLING GAMER** - Proyecto Educativo para RollingCode School.
+© 2025 **FRANCIS GAMER** - Proyecto Educativo para RollingCode School.
