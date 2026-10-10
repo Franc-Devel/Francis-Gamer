@@ -1,5 +1,11 @@
 # 🎮 FRANCIS GAMER | Tienda & Catálogo de Videojuegos
 
+![Portada conceptual ilustrativa de Francis-Gamer; no es una captura real. Cifras, pantallas y módulos ficticios.](assets/covers/cover.png)
+
+> **Ilustración conceptual · No es una captura de una aplicación real.** Las cifras, métricas, pantallas y módulos del mockup son ficticios y no acreditan funcionalidades, resultados ni garantías. Las cantidades de juegos, categorías y jugadores, así como las puntuaciones, son ficticias; no acreditan usuarios, tamaño del catálogo ni valoraciones reales. Las referencias a videojuegos son ilustrativas y no implican afiliación.
+>
+> **Concept artwork · Not an actual application screenshot.** Figures, metrics, screens and modules are fictional; they do not substantiate implemented features, measured results or security guarantees. Refer to the documentation below for the project’s actual scope.
+
 [![React](https://img.shields.io/badge/React-19.2-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-8.2-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
