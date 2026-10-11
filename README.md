@@ -1,4 +1,4 @@
-# 🎮 FRANCIS GAMER | Tienda & Catálogo de Videojuegos
+# 🎮 FRANCIS GAMER | Catálogo educativo de videojuegos
 
 ![Portada conceptual ilustrativa de Francis-Gamer; no es una captura real. Cifras, pantallas y módulos ficticios.](assets/covers/cover.png)
 
@@ -6,15 +6,17 @@
 >
 > **Concept artwork · Not an actual application screenshot.** Figures, metrics, screens and modules are fictional; they do not substantiate implemented features, measured results or security guarantees. Refer to the documentation below for the project’s actual scope.
 
+[Portada para Social Preview · 1280×640](assets/covers/cover-social.jpg) · Ilustración conceptual, no captura real.
+
 [![React](https://img.shields.io/badge/React-19.2-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-8.2-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![React_Router](https://img.shields.io/badge/React_Router-v8-CA4245?logo=react-router&logoColor=white)](https://reactrouter.com/)
 [![Status](https://img.shields.io/badge/RollingCode_School-Cohorte_9P-red)](#)
 
-Plataforma web profesional **FRANCIS GAMER**, desarrollada con **React 19**, **Vite**, **Bootstrap 5** y **React Router**. Cuenta con carrusel cinematográfico con selector lateral, catálogo oficial de 19 títulos de Steam con assets locales sincronizados, fichas de producto con especificaciones técnicas, sistema de reseñas y panel de administración protegido.
+Demo educativa de catálogo web **FRANCIS GAMER**, desarrollada con **React 19**, **Vite**, **Bootstrap 5** y **React Router**. Cuenta con carrusel cinematográfico con selector lateral, catálogo de 19 videojuegos con referencias a Steam con assets locales sincronizados, fichas de producto con especificaciones técnicas, sistema de reseñas y panel de administración con control de acceso en el cliente.
 
-> 🚀 **Sitio Web en Producción (Vercel):** [https://byte-brothers-rolling-gamer.vercel.app/](https://byte-brothers-rolling-gamer.vercel.app/)
+> 🚀 **Demo educativa (Vercel):** [https://byte-brothers-rolling-gamer.vercel.app/](https://byte-brothers-rolling-gamer.vercel.app/)
 
 ---
 
@@ -25,20 +27,20 @@ Plataforma web profesional **FRANCIS GAMER**, desarrollada con **React 19**, **V
 4. [Instalación y Ejecución Local](#-instalación-y-ejecución-local)
 5. [Estructura del Proyecto](#-estructura-del-proyecto)
 6. [Equipo de Desarrollo](#-equipo-de-desarrollo)
-7. [Despliegue en Producción (Vercel)](#-despliegue-en-producción-vercel)
+7. [Demo publicada (Vercel)](#-demo-publicada-vercel)
 
 ---
 
 ## 📖 Descripción del Proyecto
 
-FRANCIS GAMER es una solución e-commerce moderna para gamers que ofrece:
-- **Catálogo digital de 19 títulos oficiales de Steam** precargados con datos reales, precios, géneros, capturas locales y requisitos de sistema.
+FRANCIS GAMER es un proyecto educativo de catálogo que ofrece:
+- **Catálogo digital de 19 videojuegos** precargados con datos de referencia, precios ilustrativos, géneros, capturas locales y requisitos de sistema.
 - **Buscador en tiempo real** por título, desarrollador y género.
 - **Filtros por categoría** (Acción, Disparos, Carreras, Estrategia, Simulación) y opciones de ordenamiento por precio y satisfacción.
 - **Ficha técnica extendida** (`/detalle/:id`) con requisitos mínimos y recomendados de hardware (SO, Procesador, RAM, Tarjeta Gráfica y Espacio en Disco).
 - **Sistema interactivo de reseñas** con cálculo dinámico en tiempo real del porcentaje de satisfacción estilo Steam (*Extremadamente Positivas*, *Mayormente Positivas*, *Mixtas*).
-- **Lista de deseos personal (Wishlist)** sincronizada por usuario autenticado.
-- **Panel de Control de Administración (`/admin`)** protegido con CRUD completo para crear, editar y eliminar videojuegos, además de una tabla de gestión de usuarios registrados.
+- **Lista de deseos personal (Wishlist)** guardada por cuenta demo en este navegador.
+- **Panel de Control de Administración (`/admin`)** con guardián de rutas en el cliente y CRUD para crear, editar y eliminar videojuegos, además de una tabla de gestión de usuarios registrados.
 
 ---
 
@@ -54,16 +56,20 @@ FRANCIS GAMER es una solución e-commerce moderna para gamers que ofrece:
 | **Lista de Deseos (Wishlist)** | Guardado/eliminación reactiva de juegos favoritos exclusivo para usuarios con sesión activa. | ✅ |
 | **Panel CRUD de Videojuegos** | Tabla interactiva para listar, agregar (`/crear`), modificar (`/editar/:id`) y eliminar con confirmación de `SweetAlert2`. | ✅ |
 | **Gestión de Usuarios** | Tabla de usuarios registrados para visualización y eliminación (con protección de la cuenta admin activa). | ✅ |
-| **Seguridad de Rutas** | Componente guardián `RutaProtegida` que restringe el acceso al panel `/admin` solo a usuarios con rol `admin`. | ✅ |
+| **Control de rutas en el cliente** | Componente guardián `RutaProtegida` que restringe el acceso al panel `/admin` solo a usuarios con rol `admin`. | ✅ |
 | **Simulación de Autenticación** | Login y Registro con validaciones, hashing/distinción entre Administrador precargado y usuarios invitados. | ✅ |
-| **Catálogo de 19 Juegos Steam** | **19 videojuegos oficiales** precargados con assets locales sincronizados, trailers y especificaciones técnicas. | ✅ |
+| **Catálogo de 19 Juegos Steam** | **19 videojuegos de referencia** precargados con assets locales sincronizados, trailers y especificaciones técnicas. | ✅ |
 | **Diseño Responsive & Moderno** | UI moderna para gaming con paleta oscura, acentos neon, cards interactivas y tipografía Google Fonts. | ✅ |
 
 ---
 
 ## 🔑 Credenciales de Acceso para Evaluación
 
-Para la evaluación del proyecto, pueden utilizarse las siguientes cuentas predeterminadas en la pantalla de [Iniciar Sesión](/login), o bien registrar nuevas cuentas desde el formulario:
+**Cuentas demo públicas y ficticias.** La autenticación, los roles, las reseñas y la lista de deseos se simulan en el navegador con `LocalStorage`. El hashing de claves y el guardián de rutas no sustituyen autenticación ni autorización del servidor. No usar contraseñas personales ni información sensible. No se implementa un servicio comercial de pagos ni se afirma afiliación con Steam.
+
+**Educational demo:** authentication and roles run in the browser; they are not production security guarantees. Catalog prices and local reviews do not represent live store prices or community ratings.
+
+Para la evaluación del proyecto, pueden utilizarse las siguientes cuentas predeterminadas en la pantalla de [Iniciar Sesión](https://byte-brothers-rolling-gamer.vercel.app/login), o bien registrar nuevas cuentas desde el formulario:
 
 ### 👑 Perfil Administrador (Acceso completo a `/admin`)
 - **Titular:** Francisco Delgado (Team Leader)
@@ -121,7 +127,7 @@ Francis-Gamer/
 │   │   ├── common/
 │   │   │   ├── Menu.jsx        # Navbar con avatar, roles y contador de deseos
 │   │   │   ├── Footer.jsx      # Pie de página gamer con enlaces y créditos
-│   │   │   └── RutaProtegida.jsx # Guardián de seguridad para rutas privadas
+│   │   │   └── RutaProtegida.jsx # Control de navegación en el cliente
 │   │   └── pages/
 │   │       ├── Inicio.jsx      # Catálogo con Hero, buscador y filtros
 │   │       ├── DetalleDeProducto.jsx # Ficha técnica, requisitos y reseñas dinámicas
@@ -151,7 +157,7 @@ Francis-Gamer/
 ## 👥 Equipo de Desarrollo y Metodología
 
 El proyecto fue concebido, diseñado e implementado por:
-- **[Francisco Delgado (Franc-Devel)](https://github.com/Franc-Devel)**: *Team Leader & Full Stack Developer* — Arquitectura general con React 19, persistencia de catálogo en `LocalStorage`, enrutamiento con React Router, seguridad y panel de administración.
+- **[Francisco Delgado (Franc-Devel)](https://github.com/Franc-Devel)**: *Team Leader & Full Stack Developer* — Arquitectura general con React 19, persistencia de catálogo en `LocalStorage`, enrutamiento con React Router, control de rutas en el cliente y panel de administración.
 - **[Franco Triviño (francotrivio321)](https://github.com/francotrivio321)**: *Scrum Master & Frontend Developer* — Organización ágil y gestión de sprints en Trello, diseño temático inspirado en Epic Games Store, validaciones de formularios y experiencia de usuario.
 
 ### 📋 Gestión del Proyecto y Código Fuente
@@ -160,12 +166,12 @@ El proyecto fue concebido, diseñado e implementado por:
 
 ---
 
-## 🌐 Despliegue en Producción (Vercel)
+## 🌐 Demo publicada (Vercel)
 
 El proyecto se encuentra desplegado y accesible públicamente en **Vercel**:
 - 🔗 **Demo Oficial en Vivo:** [https://byte-brothers-rolling-gamer.vercel.app/](https://byte-brothers-rolling-gamer.vercel.app/)
 
-El repositorio incluye el archivo de configuración `vercel.json` con reglas de reescritura hacia `/index.html`, garantizando que el enrutamiento del lado del cliente (`client-side routing` de React Router) funcione correctamente al recargar páginas profundas como `/detalle/:id`, `/administrador` o `/wishlist`.
+El repositorio incluye el archivo de configuración `vercel.json` con reglas de reescritura hacia `/index.html`, para que el enrutamiento del lado del cliente (`client-side routing` de React Router) funcione correctamente al recargar páginas profundas como `/detalle/:id`, `/admin` o `/wishlist`.
 
 ---
 
