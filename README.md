@@ -1,4 +1,6 @@
-# 🎮 FRANCIS GAMER | Catálogo educativo de videojuegos
+# FAUVOR Gaming
+
+Producto de FAUVOR. Identidad visual: marfil, bronce y dorado; símbolo e iconos del kit original de la marca. Se conserva la URL histórica del repositorio.
 
 ![Portada conceptual ilustrativa de Francis-Gamer; no es una captura real. Cifras, pantallas y módulos ficticios.](assets/covers/cover.png)
 
