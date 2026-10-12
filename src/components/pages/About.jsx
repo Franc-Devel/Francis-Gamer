@@ -29,7 +29,7 @@ const About = () => {
           EQUIPO DE DESARROLLO · ROLLINGCODE SCHOOL
         </span>
         <h1 className="display-5 fw-bold text-white mb-3">
-          Detrás de Francis Gamer
+          Detrás de FAUVOR Gaming
         </h1>
         <p className="text-secondary mx-auto mb-0" style={{ maxWidth: "700px" }}>
           Proyecto académico de e-commerce desarrollado por <strong>Francisco Delgado</strong> y <strong>Franco Triviño</strong>, replicando la experiencia y estética de Epic Games Store.

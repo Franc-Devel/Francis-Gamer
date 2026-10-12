@@ -34,7 +34,7 @@ const CONTENIDOS = {
     cuerpo: (
       <div>
         <h6>1. Alcance del Servicio</h6>
-        <p>Francis Gamer es un prototipo académico de catálogo de videojuegos. Las transacciones son simuladas.</p>
+        <p>FAUVOR Gaming es un prototipo académico de catálogo de videojuegos. Las transacciones son simuladas.</p>
         <h6>2. Cuentas de Usuario</h6>
         <p>El registro almacena credenciales en el almacenamiento local (LocalStorage) con fines de evaluación.</p>
       </div>
@@ -145,7 +145,7 @@ export const UIModalProvider = ({ children }) => {
           <h6 className="mb-0 fw-bold">Distribución y Publicación de Videojuegos</h6>
         </div>
         <p>
-          Publicá tus producciones independientes o títulos destacados en el catálogo oficial de Francis Gamer.
+          Publicá tus producciones independientes o títulos destacados en el catálogo oficial de FAUVOR Gaming.
         </p>
         <p className="text-secondary small mb-0">
           Para publicar títulos en el catálogo se requiere iniciar sesión con una cuenta de <strong>Administrador</strong>.

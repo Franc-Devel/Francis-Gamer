@@ -37,9 +37,9 @@ const Administrador = () => {
       icon: "success",
       title: "Catálogo restablecido",
       text: "El inventario fue restaurado con éxito a los datos de fábrica.",
-      background: "#18181c",
-      color: "#f3f3f3",
-      confirmButtonColor: "#0078f2",
+      background: "#F7F1E6",
+      color: "#2B211A",
+      confirmButtonColor: "#895522",
       timer: 2000,
       showConfirmButton: false,
     });
@@ -50,9 +50,9 @@ const Administrador = () => {
         icon: "info",
         title: "Acción no permitida",
         text: "No puedes eliminar la cuenta con la que has iniciado sesión.",
-        background: "#18181c",
-        color: "#f3f3f3",
-        confirmButtonColor: "#0078f2",
+        background: "#F7F1E6",
+        color: "#2B211A",
+        confirmButtonColor: "#895522",
       });
       return;
     }
@@ -61,9 +61,9 @@ const Administrador = () => {
         icon: "warning",
         title: "Cuenta protegida",
         text: "Por seguridad de la plataforma, las cuentas con rol Administrador están protegidas contra eliminación.",
-        background: "#18181c",
-        color: "#f3f3f3",
-        confirmButtonColor: "#0078f2",
+        background: "#F7F1E6",
+        color: "#2B211A",
+        confirmButtonColor: "#895522",
       });
       return;
     }
@@ -76,8 +76,8 @@ const Administrador = () => {
       cancelButtonText: "Cancelar",
       confirmButtonColor: "#e53e3e",
       cancelButtonColor: "#4a5568",
-      background: "#18181c",
-      color: "#f3f3f3",
+      background: "#F7F1E6",
+      color: "#2B211A",
     }).then((result) => {
       if (result.isConfirmed) {
         borrarUsuario(u.id);
@@ -85,9 +85,9 @@ const Administrador = () => {
           icon: "success",
           title: "Usuario eliminado",
           text: `La cuenta de "${u.nombre}" fue dada de baja correctamente.`,
-          background: "#18181c",
-          color: "#f3f3f3",
-          confirmButtonColor: "#0078f2",
+          background: "#F7F1E6",
+          color: "#2B211A",
+          confirmButtonColor: "#895522",
           timer: 2000,
           showConfirmButton: false,
         });

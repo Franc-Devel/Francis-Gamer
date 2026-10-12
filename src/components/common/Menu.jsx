@@ -37,7 +37,7 @@ const Menu = () => {
               <i className="bi bi-globe2 me-1" />ES
             </button>
             <span className="text-secondary small">
-              <i className="bi bi-shield-check text-primary me-1" />Francis Gamer
+              <i className="bi bi-shield-check text-primary me-1" />FAUVOR Gaming
             </span>
           </div>
         </Container>
@@ -47,11 +47,11 @@ const Menu = () => {
           <i className="bi bi-info-circle me-1" />Plataforma configurada en Español (Latinoamérica). Interfaz localizada.
         </Alert>
       )}
-      <Navbar expand="lg" variant="dark" className="epic-navbar" expanded={expandido} onToggle={setExpandido}>
+      <Navbar expand="lg" variant="light" className="epic-navbar" expanded={expandido} onToggle={setExpandido}>
         <Container>
           <Navbar.Brand as={Link} to="/" onClick={cerrarMenu} className="d-flex align-items-center gap-2">
-            <span className="epic-logo-badge">R</span>
-            <span className="epic-heading h5 mb-0">ROLLING<span className="text-primary">GAMER</span></span>
+            <img className="fauvor-nav-mark" src={`${import.meta.env.BASE_URL}fauvor/symbol.png`} alt="FAUVOR" width="32" height="46" />
+            <span className="epic-heading h5 mb-0">FAUVOR <span className="text-primary">Gaming</span></span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="nav-gamer" />
           <Navbar.Collapse id="nav-gamer">

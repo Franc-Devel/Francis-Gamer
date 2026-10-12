@@ -14,13 +14,13 @@ const Footer = () => {
       <Container>
         <div className="d-flex justify-content-between align-items-center mb-4 pb-3 border-bottom border-secondary border-opacity-25">
           <div className="d-flex align-items-center gap-3 fs-5">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-secondary text-decoration-none" aria-label="Facebook de Francis Gamer">
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-secondary text-decoration-none" aria-label="Facebook de FAUVOR Gaming">
               <i className="bi bi-facebook" aria-hidden="true"></i>
             </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-secondary text-decoration-none" aria-label="Twitter X de Francis Gamer">
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-secondary text-decoration-none" aria-label="Twitter X de FAUVOR Gaming">
               <i className="bi bi-twitter-x" aria-hidden="true"></i>
             </a>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-secondary text-decoration-none" aria-label="YouTube de Francis Gamer">
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-secondary text-decoration-none" aria-label="YouTube de FAUVOR Gaming">
               <i className="bi bi-youtube" aria-hidden="true"></i>
             </a>
           </div>
@@ -56,7 +56,7 @@ const Footer = () => {
             </ul>
           </Col>
           <Col xs={12} sm={6} md={3}>
-            <span className="epic-subheading d-block mb-3">Francis Gamer</span>
+            <span className="epic-subheading d-block mb-3">FAUVOR Gaming</span>
             <p className="text-secondary mb-2">
               Plataforma interactiva de videojuegos desarrollada con fines educativos para RollingCode School.
             </p>
@@ -66,7 +66,7 @@ const Footer = () => {
         <hr className="border-secondary border-opacity-25 my-4" />
         <div className="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 small text-secondary text-center text-md-start">
           <div>
-            &copy; {new Date().getFullYear()} Francis Gamer. Proyecto educativo de RollingCode School.
+            &copy; {new Date().getFullYear()} FAUVOR Gaming. Proyecto educativo de RollingCode School.
           </div>
           <div className="d-flex gap-3 text-nowrap justify-content-center justify-content-md-end">
             <button type="button" className="btn btn-link p-0 text-secondary text-decoration-none small border-0" onClick={() => abrirModal("privacidad")}>Privacidad</button>

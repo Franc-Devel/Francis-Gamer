@@ -29,8 +29,8 @@ const ItemProducto = ({ itemProducto, producto, fila, borrarProducto, onDelete }
       cancelButtonText: "Cancelar",
       confirmButtonColor: "#e53e3e",
       cancelButtonColor: "#4a5568",
-      background: "#18181c",
-      color: "#f3f3f3",
+      background: "#F7F1E6",
+      color: "#2B211A",
     }).then((result) => {
       if (result.isConfirmed) {
         if (eliminarFn) {
@@ -39,9 +39,9 @@ const ItemProducto = ({ itemProducto, producto, fila, borrarProducto, onDelete }
             icon: "success",
             title: "Juego eliminado",
             text: `El videojuego "${nombre}" fue eliminado correctamente del catálogo.`,
-            background: "#18181c",
-            color: "#f3f3f3",
-            confirmButtonColor: "#0078f2",
+            background: "#F7F1E6",
+            color: "#2B211A",
+            confirmButtonColor: "#895522",
             timer: 2000,
             showConfirmButton: false,
           });
