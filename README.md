@@ -178,3 +178,12 @@ El repositorio incluye el archivo de configuración `vercel.json` con reglas de 
 ---
 
 © 2025 **FRANCIS GAMER** - Proyecto Educativo para RollingCode School.
+
+## Identidad FAUVOR y documentación actual
+
+**FAUVOR Gaming** forma parte del catálogo de seis productos FAUVOR. Catálogo educativo de videojuegos.
+
+- [Identidad, ejecución, validación y límites](docs/FAUVOR.md)
+- [FAUVOR Flow: automatizaciones para negocios](https://github.com/Franc-Devel/system-flow)
+
+La portada es conceptual. Las capacidades reales y las diferencias respecto de las demos se detallan en la documentación vinculada.
